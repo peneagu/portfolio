@@ -236,10 +236,46 @@ nav a:hover::before{
         color: gold;
     }
 
-
 /* contact end */
+/* footer start */
+/* my contact info start */
 
-/* scroll to top */
+footer {
+    float: right;
+    background-color: transparent;
+
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 25px;
+    position: relative;
+}
+
+.contactInfo{
+    position: relative;
+    padding: 50px;
+    justify-content: center;
+    color: whitesmoke;
+    display: block;
+    font-size: 17px;
+}
+
+.links{
+    color: whitesmoke;
+    font-size: 18px;
+}
+/* my contact info end */
+/* footer end */
+/* scroll to top start*/
 .arrowBtn{
     position: fixed;
     bottom: 30px;
@@ -260,8 +296,9 @@ nav a:hover::before{
 .arrowBtn a:hover{
     color: gold;
 }
+/* scroll to top end*/
 
-/* scroll to top */@media (max-width: 690px) {
+@media (max-width: 690px) {
 }
 @media (max-width: 500px) {
  
