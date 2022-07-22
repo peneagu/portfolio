@@ -138,6 +138,10 @@ nav a:hover::before{
 /* About End */
 
 /* Portfolio Start */
+.portTitle{
+    font-size: 17px;
+    align-items: center;
+}
 #portfolio{
     display: flex;
     flex-direction: column;
@@ -241,8 +245,8 @@ nav a:hover::before{
 /* my contact info start */
 
 footer {
-    float: right;
     background-color: transparent;
+    
 
 }
 
@@ -257,13 +261,10 @@ footer li {
     display: inline-block;
     margin-left: 80px;
     padding-top: 25px;
-    position: relative;
 }
 
 .contactInfo{
-    position: relative;
     padding: 50px;
-    justify-content: center;
     color: whitesmoke;
     display: block;
     font-size: 17px;
